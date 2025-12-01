@@ -32,3 +32,17 @@ A fully functional **custom shell** implemented in C, supporting built-in comman
 
 ## Project Structure
 
+custom_shell/
+│
+├── shell.c // Main shell program
+├── parser.c // Command parsing
+├── parser.h
+├── executor.c // Command execution
+├── executor.h
+├── builtins.c // Built-in commands
+├── builtins.h
+├── utils.c // Helper functions
+├── utils.h
+├── jobs.c // Job control functions
+├── jobs.h
+└── Makefile // Build instructions
